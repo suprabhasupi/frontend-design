@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Single Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom-css/sample.css">
+</head>
+
+<body class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-inverse col-md-12">
+            <div class="col-md-2  col-sm-6 col-xs-12">
+              
+
+                <img src="image/pic1.PNG" class="col-md-12 viralfeed viralfeed col-xs-10"></img>
+            </div>
+            <div class="col-md-7">
+                <div class="input-group col-md-12 search ">
+                    <span class="input-group-addon glyphicon glyphicon-search" id="basic-addon1"></span>
+                    <input type="text" class="form-control " placeholder="search viralfeed..." aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                 <button type="button" class="col-sm-1 btn headerbutton com btn-default">
+              <span class = "glyphicon first-glyphicon-comment glyphicon-comment"></span></button>
+
+
+                
+                <div class="notification">
+                    <div class="circle f main-circle">
+                        <div class="main-notification">
+                            <i class="fa fa-bell"></i>
+                            <div class="circle nine"><b class="single">9</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 btn headerbutton profile-setting col-md-offset-1">
+                    <!-- <img src="image/pic1.jpg"  class="img-circle"> -->
+                    <img src="image/pic1.jpg" class="img-circle">
+                    <button class=" btn btn-def dropdown-toggle" type="button" data-toggle="dropdown">Supi
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">account</a></li>
+                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    </div>
+    <div class="row">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active trending menu-left"><a href="#">Trending</a></li>
+                        <li class="menu-left hot"><a href="#">Hot</a></li>
+                        <li class="feedback menu-left"><a href="#">Feedback</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="menus"><a href="#"> Videos</a></li>
+                        <li class="menus"><a href="#">Comply</a></li>
+                        <li class="menus"><a href="#">Grls</a></li>
+                        <li class="menus"><a href="#">Cmnds</a></li>
+                        <li class="menus"><a href="#">NEW</a></li>
+                        <li class="menus"><a href="#">GIF</a></li>
+                        <li class="menus"><a href="#">Mef</a></li>
+                        <li class="menus"><a href="#">feds</a></li>
+                        <li class="menus"><a href="#">More</a></li>
+                        <li class="menus">
+                            <button type="button" class="btn btn-default">
+                                <span class="glyphicon glyphicon-option-vertical"></span></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-1 col-md-2"></div>
+            <div class="col-sm-10 col-md-9 col-xs-12">
+                <div class="col-md-7 col-xs-12 col-sm-12">
+                    <div class="panel panel-default post-panel">
+                        <div class="panel-thumbnail">
+                            <div class="post-top col-sm-12 col-md-12 col-xs-12">
+                                <div class ="pull-left">
+                                  <img src="image/pic1.jpg" class="img-circle  pull-left">
+                                  <p class="header">Deadpool21
+                                   <small class="followers">2,086 followers</small> </p>
+                                </div>
+                              
+                                <div class ="pull-right">
+                                  <ul class="nav navbar-nav navbar-right pull-right">
+                                      <li>
+                                          <div class="btn circles add">
+                                              <a href="#" data-toggle="tooltip" data-placement="top" title="Follow" class="green-tooltip"><span class = "glyphicon glyphicon-plus"></span></a>
+                                              <script>
+                                              $(document).ready(function() {
+                                                  $('[data-toggle="tooltip"]').tooltip();
+                                              });
+                                              </script>
+                                          </div>
+                                      </li>
+                                      <li class="menus">
+                                          <button type="button" class="btn btn-default point">
+                                              <span class="glyphicon glyphicon-option-vertical"></span></button>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </div>
+                            <p id="top"><b>Married Life</b>
+                            </p>
+                            <img src="image/large.gif" class="img-responsive" width="100%" height="100%">
+                        </div>
+                        <div class="panel-body">
+                            <h4 class="numbers">23,409 <small class="down">Updates</small></h4>
+                            <h4 class="rside">306 <small class="down">Comments</small></h4>
+                        </div>
+                        <div class="panel-footer">
+                            <button type="button" class="btn btn-default first-button">
+                                <i class="fa fa-thumbs-up"></i>Update</button>
+                            <p class="btn circles cir thumbs-down share"><i class="fa fa-share-alt"></i></p>
+                            <p class="btn circles cir thumbs-down second-button "><i class="fa fa-thumbs-down"></i></p>
+                            
+                            <p class="btn circles cir thumbs-down comment"><span class="glyphicon glyphicon-comment"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default post-panel">
+                        <div class="panel-thumbnail ex-post">
+                            <div class="fixdiv">
+                            <div class="post-top col-sm-12 col-md-12 col-xs-12">
+                                <div class ="pull-left col-sx-8">
+                                  <img src="image/pic5.jpg" class="img-circle  pull-left">
+                                  <p class="header">Civil War
+                                   <small class="followers">1,422 followers</small> </p>
+                                </div>
+                              
+                                <div class ="pull-right">
+                                  <ul class="nav navbar-nav navbar-right pull-right">
+                              <li><div class="btn circles ok"><span class = "glyphicon glyphicon-ok"></span></div></li>
+                                      <li class="menus">
+                                          <button type="button" class="btn btn-default point">
+                                              <span class="glyphicon glyphicon-option-vertical"></span></button>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </div>
+                        
+                            <p id="secondpost-text">During this first visit, Schieble told Jobs that he had a sister, Mona, who was not aware that she had a brother. Schieble then arranged for them to meet in New York where Mona worked.</p>
+                            
+                            <div class="svg-bi css-ds">
+                                <img src="image/pic2.jpg" class="img-responsive zigzag-image" width="100%" height="100%">
+                                <p id="thirdpost-text"> Jobs stated that he was motivated to find his birth mother out of both curiosity and a need "to see if she was okay and to thank her, because I'm glad I didn't end up as an abortion. </p>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row text-center read">Read More...</div>
+                                <div class="row number-rside">
+                                    <h4 class="numbers">55,409 <small class="down">Updates</small></h4>
+                                    <h4 class="rside">518 <small class="down">Comments</small></h4>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-footer">  
+        <div class="btn circles first-button"><span class = "glyphicon glyphicon-thumbs-up"></span>Update</div>
+        <p class="btn circles second-button"><span class = "glyphicon glyphicon-thumbs-down"></span></p>
+        <p class="btn circles share"><span class = "glyphicon glyphicon-share-alt"></span></p>
+        <p class="btn circles comment"><span class = "glyphicon glyphicon-comment"></span></p>
+    
+      </div> -->
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-default last-button first-button">
+                                    <i class="fa second-thumbs-up fa-thumbs-up"></i>Update</button>
+                                <p class="btn circles cir thumbs-down share"><i class="fa fa-share-alt"></i></p>
+                                <p class="btn circles cir thumbs-down second-button "><i class="fa fa-thumbs-down"></i></p>
+                                <p class="btn circles cir thumbs-down comment"><span class="glyphicon glyphicon-comment"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <script>
+                    /* Works best in Webkit */
+
+                    /* Inline XML data URI fix */
+                    /* Some browsers (most browsers) don't render inline XML data URI's unless they are escaped. */
+                    (function() {
+
+                        if (!window.StyleFix) return;
+                        if (hasxmldatauri()) return;
+
+                        // Test unescaped XML data uri
+                        function hasxmldatauri() {
+                            var img = new Image();
+                            datauri = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0 1,1" fill="#000"></svg>';
+                            img.src = datauri;
+                            return (img.width == 1 && img.height == 1);
+                        }
+
+                        StyleFix.register(function(css) {
+
+                            return css.replace(RegExp(/url\(\'data:image\/svg\+xml,(.*)\'\)/gi), function($0, svg) {
+                                return "url('data:image/svg+xml," + escape(svg) + "')";
+                            });
+
+                        });
+
+                    })();
+                    </script>
+                </div>
+                <div class="col-sm-12 col-xs-12 col-md-3 sidenav">
+                    <!-- right sidebar with follow button -->
+                    <div class="margin">
+                        <div class="border">Who to follow <span class="refresh"> Refresh </span></div>
+                        <div class="border">
+                            <div class="circle"></div>
+                            <span class="glyphicon glyphicon-remove"></span>
+                            <p class="center"> BlackCherry </p>
+                            <h4 class="follow-button"><small><b>342 Followers </b></small></h4>
+                            <button type="button" class="btn followbtn">Follow</button>
+                        </div>
+                        <div class="border">
+                            <div class="circle"></div>
+                            <span class="glyphicon glyphicon-remove"></span>
+                            <p class="center"> BlackCherry </p>
+                            <h4 class="follow-button"><small><b>342 Followers </b></small></h4>
+                            <button type="button" class="btn followbtn">Follow</button>
+                        </div>
+                        <div class="border">
+                            <div class="circle"></div>
+                            <span class="glyphicon glyphicon-remove"></span>
+                            <p class="center"> BlackCherry </p>
+                            <h4 class="follow-button"><small><b>342 Followers </b></small></h4>
+                            <button type="button" class="btn followbtn">Follow</button>
+                        </div>
+                        <div class="border">
+                            <div class="circle"></div>
+                            <span class="glyphicon glyphicon-remove"></span>
+                            <p class="center"> BlackCherry </p>
+                            <h4 class="follow-button"><small><b>342 Followers </b></small></h4>
+                            <button type="button" class="btn followbtn">Follow</button>
+                        </div>
+                        <div class="border end">
+                            <p class="btn circles"><span class="glyphicon glyphicon-pencil"></span></p>
+                            <div class="last">
+                                <p>Explore more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidenav">
+                        <!-- right sidebar with images -->
+                        <div class="panel panel-default panel-image">
+                            <div class="panel-thumbnail"><img src="image/pic1.jpg" class="img-responsive"></div>
+                            <p class="lead">Any office works</p>
+                            <div class="panel-thumbnail"><img src="image/pic7.png" class="img-responsive"></div>
+                            <p class="lead">These pictures...</p>
+                            <div class="panel-thumbnail"><img src="image/pic3.jpg" class="img-responsive"></div>
+                            <p class="lead">all about yes..... </p>
+                            <div class="panel-thumbnail"><img src="image/pic7.png" class="img-responsive"></div>
+                            <p class="lead">single list......</p>
+                            <div class="panel-thumbnail"><img src="image/pic3.jpg" class="img-responsive"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1"></div>
+        </div>
+</body>
+
+</html>

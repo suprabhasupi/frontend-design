@@ -1,0 +1,703 @@
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  
+  body {
+      background-color: rgb(245, 245, 245);
+  }
+  .navbar-inverse {
+      border-color: rgba(55, 58, 65, 0);
+  }
+  .input-group.col-md-12.search {
+      position: relative;
+      margin-right: 3px;
+      top: 3px;
+      margin-top: 5px;
+      padding-left: 22px;
+  }
+  .viralfeed {
+      margin-left: 3.4em;
+      margin-top: 8px;
+  }
+  .navbar-inverse .navbar-nav>.trending>a {
+      color: #21CD43;
+      font-weight: bold;
+  }
+  .navbar-inverse .navbar-nav>.hot>a {
+      color: #A27F2B;
+      font-weight: bold;
+  }
+  .navbar-inverse .navbar-nav>.feedback>a {
+      color: #5E8EAB;
+      font-weight: bold;
+  }
+  .headerbutton {
+      border-radius: 50px;
+      top: 8px;
+  }
+  .profile-setting {
+      top: 2px;
+      padding: 0;
+      position: relative;
+      left: 4.7em;
+  }
+  .profile-setting button:hover{color: black; background: white;}
+
+  .headerbutton img {
+      position: relative;
+      /*top:-16px;*/
+      
+      width: 2.7em;
+      height: 2.7em;
+  }
+  .caret {
+      color: white;
+  }
+  .main-circle:hover{
+    background: #ccc;
+  }
+  .comment:hover,.share:hover,button.btn.btn-default.first-button:hover,p.btn.circles.cir.thumbs-down.second-button:hover{
+    background: #222;
+    color: white;
+  }
+  button.btn.btn-default.first-button:hover > i{
+    color: white;
+  }
+  .glyphicon-pencil:hover{color: white;}
+  button:hover >.caret{color: black;}
+  .dropdown-toggle {
+      position: relative;
+      background-color: #222;
+      border: none;
+      margin-left: 8px;
+      color: white;
+  }
+  .dropdown-menu {
+      top: 48px;
+      left: -32px;
+      margin-top: 0;
+      z-index: 10000;
+  }
+  .glyphicon-search {
+      position: relative;
+      top: 0px;
+  }
+  .search input {
+      background-color: #333439;
+      border: none;
+  }
+  .search span {
+      background-color: #333439;
+      border: none;
+  }
+  .trending {
+      margin-left: 4.5em;
+  }
+  .content {
+      margin-top: 5px;
+  }
+  .navbar-nav>li>a {} .feedback {
+      padding-right: 2px;
+  }
+  .feedback::after {
+      content: "|";
+      color: black;
+      font-size: 30px;
+      position: absolute;
+      top: 3px;
+      right: -15px;
+  }
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      border: none;
+  }
+  .navbar-inverse .navbar-nav>li.menus>a {
+      margin: 0px 5px;
+      color: #EFEFEF;
+      font-weight: bold;
+  }
+  .navbar-inverse .navbar-nav>.active>a {
+      background-color: #222;
+  }
+  .active {
+      border-bottom: 3px solid white;
+  }
+  .navbar-inverse .navbar-nav>li.menus>button {
+      background: #222;
+      color: #EFEFEF;
+      font-size: 10px;
+      border: none;
+      border-radius: 0px;
+      position: relative;
+  }
+
+  #myNavbar .navbar-right>li:nth-last-child(1){
+    position: relative;
+    top: 12px;
+  }
+  .menu-left {
+      margin-right: 15px;
+  }
+  .row.content {
+      height: 450px
+  }
+  /* Set gray background color and 100% height */
+  
+  .sidenav {
+      /* background-color: #f1f1f1; */
+      
+      height: 100%;
+  }
+  /* right sidebar with follow */
+  
+  .panel-image {
+      text-align: left;
+  }
+  .lead {
+      font-size: 1em;
+      font-weight: bold;
+      padding: 16px 0px 0px 10px;
+  }
+  .follow-button {
+      position: relative;
+      bottom: 10px;
+      left: 4px;
+  }
+  .margin {
+      border: 2px solid #F9F9F9;
+      margin-bottom: 5px;
+  }
+  .refresh {
+      float: right;
+      color: blue;
+  }
+  .border {
+      border-bottom: 3px solid #F9F9F9;
+      padding: 4px;
+      font-weight: bold;
+      background-color: white;
+  }
+  .center {
+      position: relative;
+      margin-left: 5em;
+      font-weight: bold;
+      margin-top: 5px;
+  }
+  small {
+      margin-left: 1.2em;
+      margin-top: 10px;
+  }
+  h4 {
+      font-size: 15px;
+  }
+  .followbtn {
+      margin-left: 1.5em;
+      padding: 2px 4px 1px 4px;
+      color: #1FCF45;
+      border: 1px solid black;
+      background-color: white;
+      font-weight: bold;
+      border-color: #ccc9c9;
+      position: relative;
+      bottom: 10px;
+  }
+  .circle {
+      width: 44px;
+      height: 44px;
+      background: #A1A1A1;
+      border-radius: 50px;
+      float: left;
+      margin-top: 20px;
+      margin-left: 10px;
+  }
+  .glyphicon-pencil {
+      position: relative;
+      top: -3px;
+  }
+  .glyphicon-remove {
+      float: right;
+      color: #eae8e8;
+  }
+  .circles {
+      position: relative;
+      display: block;
+      width: 24px;
+      height: 24px;
+      background: #525659;
+      border-radius: 50px;
+      float: left;
+      margin-top: 10px;
+      margin-left: 3.5em;
+      padding-left: 5px;
+      z-index: 1000;
+  }
+  .last {
+      position: relative;
+      font-weight: bold;
+      z-index: 100;
+      padding: 10px;
+  }
+  .last p {
+      position: relative;
+      left: 10px;
+      top: 2px;
+  }
+  .end {
+      background: #eae8e8;
+      margin-right: -2px;
+  }
+  /* body page */
+  
+  .img-circle {
+      margin-top: 6px;
+      margin-left: 13px;
+      height: 50px;
+      width: 50px;
+  }
+  .first {
+      padding-bottom: 25px;
+      /*border-bottom: 2px solid ;
+    border-color: #F1F1F1;
+    */
+  }
+  .followers {
+      top: 0px;
+      font-weight: bold;
+      color: #A1A1A1;
+      margin: 0;
+  }
+  .header {
+      position: relative;
+      left: 15px;
+      bottom: -13px;
+      font-weight: bold;
+  }
+  #top {
+      padding: 7px 0px 12px 15px;
+      position: relative;
+      top: 7px;
+  }
+  .numbers {
+      position: relative;
+      left: 10px;
+      bottom: 6px;
+      font-weight: bold;
+  }
+  /*.halfing-tick{
+  color:red;
+}*/
+  
+  .down {
+      position: relative;
+      left: -7px;
+  }
+  .rside {
+      position: relative;
+      float: right;
+      bottom: 2.8em;
+      font-weight: bold;
+      left: -6px;
+  }
+  .panel-footer {
+      position: relative;
+      bottom: 50px;
+      background-color: #FFF;
+      height: 23px;
+  }
+  /*.update-button{
+border-radius: 100px 100px 100px 100px;
+position: relative;
+bottom: -5px;
+
+}
+*/
+  /*.cir{
+  position: relative;
+  display: inline;
+  left: 13px;
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
+  background: #525659;
+  border-radius: 50px;
+  padding-left: 5px;
+
+
+  }
+*/
+  
+  .first-button {
+      border-radius: 100px 100px 100px 100px;
+      background-color: #F1F1F1;
+      position: relative;
+      top: 4px;
+      right: 11.8em;
+  }
+  button.btn.btn-default.last-button {
+      background: #DF9904;
+      color: white;
+      font-weight: bold;
+  }
+  i.fa.second-thumbs-up.fa-thumbs-up {
+      color: white;
+  }
+  .fa-thumbs-up {
+      margin-right: 13px;
+      color: black;
+  }
+  .fa-share-alt {
+      position: relative;
+      left: 3px;
+  }
+  .thumbs-down {
+      width: 35px;
+      height: 35px;
+  }
+  .fa-thumbs-down {
+      position: relative;
+      left: 3px;
+      bottom: 1px;
+  }
+  .second-button {
+      background-color: #F1F1F1;
+      position: relative;
+      left: 5em;
+      bottom: 4px;
+  }
+  .share {
+      background-color: #F1F1F1;
+      position: relative;
+      left: 4.8em;
+      top: -5px;
+  }
+  .comment {
+      background-color: #F1F1F1;
+      float: right;
+      clear: both;
+      bottom: 3.2em;
+      transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+  }
+  .glyphicon-comment {
+      position: relative;
+      right: -4px;
+      top: 3px;
+  }
+  .add {
+      background-color: #F1F1F1;
+      width: 33px;
+      height: 33px;
+      margin: 0px;
+  }
+  .pull-right ul {
+      margin: 1em .5em 0em 0em;
+  }
+  .point {
+      border: none;
+  }
+  .glyphicon-plus {
+      left: 4px;
+      border-bottom: 2px;
+      color: #A1A1A1;
+  }
+  .glyphicon-option-vertical {
+      color: #A1A1A1;
+  }
+  .head {
+      background-color: white;
+  }
+  /*.post-panel
+{
+  height:644px;
+}*/
+  
+  .ex-post {
+      /* background: white; */
+      
+      height: 800px;
+  }
+  .post-top {
+      border-bottom: 2px solid;
+      border-color: #F1F1F1;
+      z-index: 100;
+      /* position: relative; */
+      
+      background: white;
+      /* top: -22px; */
+      
+      padding: 0px 0px 10px 0px;
+  }
+  .tooltip.top .tooltip-arrow {
+      border-top-color: #0B932F
+  }
+  /*.tooltip-arrow,*/
+  
+  .green-tooltip + .tooltip > .tooltip-inner {
+      background-color: #0B932F;
+      border-radius: 0px;
+      padding: 10px 15px 3px 15px;
+  }
+  /*.tooltip.top .tooltip-arrow {
+    border-top-color: #00acd6;
+}
+*/
+  
+  .ok {
+      background-color: #16A633;
+      width: 31px;
+      height: 31px;
+      top: -9px;
+  }
+  .glyphicon-ok {
+      position: relative;
+      left: 2px;
+      color: white;
+  }
+  p#secondpost-text {
+      clear: both;
+      position: relative;
+      margin: 0 15px 15px;
+      font-weight: bold;
+      height: 100%;
+      text-align: justify;
+      padding-top: 11px;
+      /* top: 80px; */
+      
+      z-index: 100;
+  }
+  p#thirdpost-text {
+      text-align: justify;
+      font-weight: bold;
+  }
+  /* SVG Data URI & Border Image (with SVG Drop Shadow) */
+  
+  .css-ds {
+      width: 100%;
+      background-color: #A3A3A3;
+      border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 2 1" preserveAspectRatio="none"  fill="#A3A3A3"><polygon points="2 0 0 0 1 1"/></svg>') 0 0 100% repeat;
+      border-width: 0 0 15px;
+      border-style: solid;
+      background-clip: padding-box;
+      margin-bottom: -10px;
+      filter: drop-shadow(hsla(0, 0%, 0%, 0.75) 0px 1px 2px);
+      filter: alpha(opacity=40);
+      position: relative;
+      z-index: 1000;
+  }
+  .number-rside {
+      background-color: white;
+  }
+  .zigzag-post {
+      background-color: grey;
+  }
+  .read {
+      position: relative;
+      z-index: 0;
+      height: 50px;
+      background: #E2DEDE;
+      top: -19px;
+      line-height: 65px;
+  }
+  .css-ds p {
+      position: relative;
+      margin-left: 8px;
+  }
+  /* for notification bell */
+  
+  .main-notification {
+      position: relative;
+      right: 10px;
+      bottom: 5px;
+  }
+  .fa-bell {
+      color: #21CD43;
+      margin-top: 18px;
+      margin-left: 20px;
+  }
+  .nine {
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+      color: white;
+      background-color: #21CD43;
+      margin-top: -26px;
+      margin-left: 22px
+  }
+  .com {
+      padding: 9px 18px;
+      ;
+      background-color: #373539;
+      border: none;
+  }
+  .first-glyphicon-comment {
+      position: relative;
+      right: 6px;
+      top: 3px;
+      color: orange;
+  }
+  .single {
+      position: relative;
+      left: 3px;
+      bottom: 2px;
+  }
+  .main-circle {
+      background-color: #373539;
+      width: 35px;
+      height: 35px;
+      position: relative;
+      bottom: 10px;
+      left: 13px
+  }
+  .fixdiv {
+      position: relative;
+      top: -50px;
+  }
+ #myNavbar .nav.navbar-nav li:hover {
+    background: black;
+}
+
+
+  /*@media only screen and (min-width:500px) and (max-width:768px){
+     .ex-post{
+            height: 826px;
+      }
+  }
+
+  @media only screen and (max-width: 500px) {
+      .post-top {
+          height: 80px;
+      }
+      .ex-post{
+            height: 745px;
+      }
+      .followers {
+          position: relative;
+          width: 100%;
+          top: -3px;
+      }
+      .ok {
+          margin: 0;
+      }
+      .first-button {
+          float: left;
+          right: 0;
+      }
+      .share {
+          margin: 0px;
+          float: left;
+          top: 3px;
+          left: 6px;
+      }
+      .second-button {
+          margin: 0;
+          position: relative;
+          float: right;
+          bottom: 0;
+          left: 0;
+      }
+      .com {
+          float: left;
+          padding: 9px 11px;
+      }
+      .viralfeed {
+          margin-left: 1.7em;
+      }
+      .first-glyphicon-comment {
+          padding: 2px 1px;
+          right: 0px;
+      }
+      .notification {
+          position: relative;
+          left: 24px;
+      }
+      .input-group.col-md-12.search {
+          padding-left: 0;
+      }
+      .navbar-inverse .navbar-nav>li.menus>button {
+          margin-left: 25px;
+          position: relative;
+          top: 3px;
+      }
+
+      .css-ds{
+        border-width: 3px 0 17px;
+        margin-bottom: -12px;
+      }
+
+      }
+  }*/
+
+  @media only screen and (min-width:500px) and (max-width:768px){
+     .ex-post{
+            height: 826px;
+      }
+                  .notification {
+          position: relative;
+          left: 24px;
+      }
+      .com {float: left;
+}
+  }
+
+  @media only screen and (max-width: 500px) {
+      .post-top {
+          height: 80px;
+      }
+      .ex-post{
+            height: 745px;
+      }
+      .followers {
+          position: relative;
+          width: 100%;
+          top: -3px;
+      }
+      .ok {
+          margin: 0;
+      }
+      .first-button {
+          float: left;
+          right: 0;
+      }
+      .share {
+          margin: 0px;
+          float: left;
+          top: 3px;
+          left: 6px;
+      }
+      .second-button {
+          margin: 0;
+          position: relative;
+          float: right;
+          bottom: 0;
+          left: 0;
+      }
+      .com {
+          float: left;
+          padding: 9px 11px;
+      }
+      .viralfeed {
+          margin-left: 1.7em;
+      }
+      .first-glyphicon-comment {
+          padding: 2px 1px;
+          right: 0px;
+      }
+      .notification {
+          position: relative;
+          left: 24px;
+      }
+      .input-group.col-md-12.search {
+          padding-left: 0;
+      }
+      .navbar-inverse .navbar-nav>li.menus>button {
+          margin-left: 25px;
+          position: relative;
+          top: 3px;
+      }
+
+      .css-ds{
+        border-width: 3px 0 17px;
+        margin-bottom: -12px;
+      }
+
+      }
+  }
